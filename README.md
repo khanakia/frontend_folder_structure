@@ -17,19 +17,19 @@ This dir will include all the gql schema definitions
 #### `adapters/local`
 Will contain any demo or local data files e.g.
 
-### `context`
+#### `context`
 Can contain mobx, redux, jotai, reactContexts
 
-### `domain`
+#### `domain`
 This dir can contain the typescript type definitions, interfaces.
 
-### `hooks`
+#### `hooks`
 Can contain react hooks
 
-### `utils`
+#### `utils`
 utility functions for a specific feature
 
-### features/[NAME]/index.tsx
+#### features/[NAME]/index.tsx
 entry point for the feature, it should serve as the public API of the given feature and exports everything that should be used outside the feature
 
 <br/>
